@@ -9,5 +9,3 @@ RUN apk --no-cache -U add ca-certificates
 COPY --from=builder /code/bin/url-shortener /usr/bin/url-shortener
 RUN chmod a+x /usr/bin/url-shortener
 ENTRYPOINT ["/usr/bin/url-shortener"]
-
-
