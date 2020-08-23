@@ -20,3 +20,8 @@ tf-apply: plan
 .PHONY: clean
 clean:
 	rm -rf terraform/plan.tfplan
+
+.PHONY: docker
+docker:
+	cd .. && docker build -t url-shortener -f .\url-shortener\Dockerfile .
+
