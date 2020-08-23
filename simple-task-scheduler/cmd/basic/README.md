@@ -1,6 +1,16 @@
 
 Add tasks to scheduler with various unit lengths
 
+## Setup
+
+- 1 `Scheduler`
+- 2 `Workers` with `6` units of total capacity
+- 4 `Tasks` with various unit sizes
+    - `task-1` - 1 unit size
+    - `task-2` - 3 unit size
+    - `task-3` - 2 unit size
+    - `task-4` - 5 unit size
+
 ## Output
 
 ```
