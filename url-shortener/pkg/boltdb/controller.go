@@ -4,8 +4,8 @@ import (
 	"fmt"
 
 	urlshortener "github.com/bcatubig/go-projects/url-shortener"
-	"github.com/boltdb/bolt"
 	"github.com/hashicorp/go-hclog"
+	bolt "go.etcd.io/bbolt"
 )
 
 const (
